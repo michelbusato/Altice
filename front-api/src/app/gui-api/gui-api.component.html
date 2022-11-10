@@ -1,0 +1,21 @@
+<h3>Altice API - GUI web </h3>
+<div class="row justify-content-center">
+    <div class="col-md-4">
+      <div class="card-body">
+        <label for="">Enter the Altice sequence number (n): </label>
+        <input type="number" [(ngModel)]="n" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary btn-lg btn-block" type="button" (click)="sendNumber()">
+          Send
+        </button>
+      </div>
+
+      <div class="card-body">
+        <Label class="ad-label" textWrap="true" style="color: red;">
+          {{result}}
+       </Label>
+      </div>
+
+    </div>
+</div>
